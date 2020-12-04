@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBtn {
+    margin: .5rem;
+}
+
+.navBtn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navBtn:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.modalWrapper {
+    position: fixed;
+    width: 60vw;
+    height: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 100px;
+    z-index: 1000;
+}
+
+.modalStyles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+
+.newsCard-body {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+}
