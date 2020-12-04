@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## For Login use:
 
-login: user,
+login: user
 password: user
 
-login: admin,
+login: admin
 password: admin
 
 ## Available Scripts
